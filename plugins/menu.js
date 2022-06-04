@@ -442,8 +442,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 「 *Bσt Ɩnfσrmαtισn* 」
 🌸 Runtime: ${uptime}
 🌸 Bot Name: ${conn.user.name}
-🌸 Name Owner: ℓettα - sαmα
-🌸 Number Owner: ${ow}
+🌸 Name Owner: FATURRAHMAN
+🌸 Number Owner: https://wa.me/6283813063969
 🌸 Platform: ${platform}
 🌸 Mode: ${mode}
 🌸 Users: ${totalreg}
@@ -451,7 +451,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 
                 「 *Ƙαnnα BOT あ⁩* 」`
 
-let ftt = `©️ Created By Letta - Sama`
+let ftt = `©️ Created By Faturr`
     if (teks == '404') {
       return conn.send3ButtonLoc(m.chat, await (await fetch('https://telegra.ph/file/c73f47b440241b66cb9d3.jpg')).buffer(), tksk, ftt, 'COMMAND', '.simplemenu', 'DONASI', '.donasi', 'OWNER', '.nowner', m, { contextInfo: { mentionedJid: conn.parseMention(tksk)}})
   
